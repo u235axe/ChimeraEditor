@@ -1,0 +1,11 @@
+name = g++
+in_wsl = true
+env = bash.exe
+env_arch = ###
+cmd_chain = &&
+command = g++-6 
+flags = -pedantic -std=c++14
+out_prefix = -o
+fn_suffix = -c
+fwd_prefix = 2>
+diag_sep = ::

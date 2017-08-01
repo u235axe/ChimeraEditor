@@ -1,0 +1,20 @@
+background   = 30 30 30
+filename     = 160  160  160
+line_number  = 128 128 192
+selection    = 32 96 128
+error        = 255 0   0
+warning      = 255 128 0
+note         = 0   0   255
+grey         = 128 128 128
+cursor       = 255 255 255
+
+comment    = 64 192 64
+keyword    = 96 128 255
+number     = 192 128 192
+type       = 64 224 128
+include    = 128 192 224
+string     = 206 145 120
+default    = 224 224 224
+operator   = 224 0 224
+identifier = 224 224 224
+define     = 192 128 224

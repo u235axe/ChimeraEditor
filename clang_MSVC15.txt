@@ -1,0 +1,11 @@
+name = clang
+in_wsl = false
+env = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat
+env_arch = x86
+cmd_chain = &&
+command = C:\Program Files (x86)\LLVM\bin\clang-cl.exe
+flags = /EHsc /nologo -Xclang -pedantic
+out_prefix = -o
+fn_suffix = -c
+fwd_prefix = 2>
+diag_sep = (,)

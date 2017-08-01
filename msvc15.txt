@@ -1,0 +1,11 @@
+name = MSVC15
+in_wsl = false
+env = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat
+env_arch = x86
+cmd_chain = &&
+command = cl.exe 
+flags = /EHsc /nologo
+out_prefix = /Fo:
+fn_suffix =    
+fwd_prefix = >
+diag_sep = ()
